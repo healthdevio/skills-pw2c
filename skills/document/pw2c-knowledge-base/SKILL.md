@@ -35,8 +35,14 @@ Texto em **português**. Manter conceitos técnicos, nomes de APIs, ferramentas 
 
 ## 5. Fallback MCP
 
-Se a consulta/inserção falhar ou as ferramentas não estiverem disponíveis: orientar configuração conforme `./references/mcp-setup.md` e seguir sem base (não travar o fluxo).
+Se a consulta/inserção falhar ou as ferramentas não estiverem disponíveis: orientar configuração conforme `references/mcp-setup.md` e seguir sem base (não travar o fluxo).
 
 ## 6. Componentes/hooks/utils React
 
 Para indexar componentes, hooks ou utils React, use a skill **component-architect-memory** e seu template de Knowledge Card em `skills/frontend/component-architect-memory/references/knowledge-card-template.md`.
+
+---
+
+## Regras e Restrições
+
+- Ferramentas MCP (sempre usar as tools tipadas do projeto, **nunca** o wrapper genérico `CallMcpTool`)
